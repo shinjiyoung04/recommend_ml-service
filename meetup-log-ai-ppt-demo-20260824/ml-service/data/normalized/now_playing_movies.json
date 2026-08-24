@@ -1,0 +1,452 @@
+{
+  "schema_version": "1.0",
+  "collected_at": "2026-08-06T10:44:28+09:00",
+  "sources": [
+    "CGV",
+    "LOTTE_CINEMA",
+    "MEGABOX"
+  ],
+  "movie_count": 20,
+  "movies": [
+    {
+      "title": "오디세이",
+      "normalized_title": "오디세이",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26018900",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 1,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26018900",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "스파이더맨: 브랜드 뉴 데이",
+      "normalized_title": "스파이더맨브랜드뉴데이",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26028000",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 2,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26028000",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "사랑의 하츄핑: 고래보석의 전설",
+      "normalized_title": "사랑의하츄핑고래보석의전설",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26034700",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 3,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26034700",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "호프",
+      "normalized_title": "호프",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26038300",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 4,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26038300",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "오케이 마담2",
+      "normalized_title": "오케이마담2",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26045300",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 5,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26045300",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "명탐정 코난: 하이웨이의 타천사",
+      "normalized_title": "명탐정코난하이웨이의타천사",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26042500",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 6,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26042500",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "미니언즈 & 몬스터즈",
+      "normalized_title": "미니언즈몬스터즈",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26015500",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 7,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26015500",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "어떻게 해야 했을까?",
+      "normalized_title": "어떻게해야했을까",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26045500",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 8,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26045500",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "워페어",
+      "normalized_title": "워페어",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26046200",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 9,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26046200",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "3SKM 1st LIVE “One-Off” Live Viewing",
+      "normalized_title": "3skm1stliveoneoffliveviewing",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26045100",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 10,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26045100",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "다윗",
+      "normalized_title": "다윗",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26022100",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 11,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26022100",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "오피셜히게단디즘 라이브 앳 스타디움 2025",
+      "normalized_title": "오피셜히게단디즘라이브앳스타디움2025",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26017800",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 12,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26017800",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "[2026 시네도슨트] 그리스 신화의 세계관과 영웅들",
+      "normalized_title": "2026시네도슨트그리스신화의세계관과영웅들",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26049200",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 13,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26049200",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "토이 스토리 5",
+      "normalized_title": "토이스토리5",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26033300",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 14,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26033300",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "신극장판 은혼: 요시와라 대염상",
+      "normalized_title": "신극장판은혼요시와라대염상",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26020900",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 15,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26020900",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "모아나",
+      "normalized_title": "모아나",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26035600",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 16,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26035600",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "2026 aespa LIVE TOUR -SYNK : COMPLaeXITY- IN CINEMAS",
+      "normalized_title": "2026aespalivetoursynkcomplaexityincinemas",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26048700",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 17,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26048700",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "애정만세",
+      "normalized_title": "애정만세",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26049000",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 18,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26049000",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "프로젝트 헤일메리",
+      "normalized_title": "프로젝트헤일메리",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26013700",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 19,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26013700",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    },
+    {
+      "title": "날씨의 아이",
+      "normalized_title": "날씨의아이",
+      "original_title": null,
+      "release_date": null,
+      "release_year": null,
+      "rating": null,
+      "poster_url": null,
+      "detail_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=23035700",
+      "is_now_playing": true,
+      "watch_path": "현재 상영 중",
+      "sources": [
+        {
+          "cinema": "MEGABOX",
+          "rank": 20,
+          "reservation_rate": null,
+          "booking_available": true,
+          "source_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=23035700",
+          "collected_at": "2026-08-06T10:44:28+09:00"
+        }
+      ]
+    }
+  ]
+}

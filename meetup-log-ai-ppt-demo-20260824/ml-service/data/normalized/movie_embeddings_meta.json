@@ -1,0 +1,11 @@
+{
+  "catalog_version": "v1",
+  "catalog_sha256": "31758c9c9ef76a0485e587d3dbc6fb3e2faa7bc66ed6ed5a0d630ce2d3af9a56",
+  "model_name": "jhgan/ko-sroberta-multitask",
+  "movie_count": 5000,
+  "embedding_dimension": 768,
+  "dtype": "float32",
+  "embeddings_sha256": "36f37d8f2756ab52204634d6b137f629a7eaae2cdbf85b8f627fa39076d20ad0",
+  "catalog_content_sha256": "44e611ba05f1676dbc09439362f9cf6bd8427749504288e7bcc068db244702e4",
+  "model_revision": "artifact-sha256:36f37d8f2756ab52204634d6b137f629a7eaae2cdbf85b8f627fa39076d20ad0"
+}

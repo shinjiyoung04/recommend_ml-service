@@ -1,0 +1,27 @@
+[project]
+name = "meetup-log-ml"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn[standard]>=0.34,<1",
+  "httpx>=0.28,<1",
+  "numpy>=2,<3",
+  "scikit-learn>=1.6,<2",
+  "joblib>=1.4,<2",
+  "pydantic-settings>=2.7,<3",
+  "PyMySQL>=1.1,<2",
+  "rapidfuzz>=3.9,<4",
+]
+
+[project.optional-dependencies]
+embedding = ["sentence-transformers>=3.4,<4"]
+dev = ["pytest>=8,<9"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["meetup_ml*"]
+exclude = ["fixtures*", "tests*"]

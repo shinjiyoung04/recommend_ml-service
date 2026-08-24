@@ -1,0 +1,8 @@
+.venv/
+.qa-venv/
+.gradle-cache/
+**/__pycache__/
+**/.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+backend/build/

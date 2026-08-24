@@ -1,0 +1,7 @@
+{
+  "evaluated_at": "2026-08-12T09:29:54.754720+00:00",
+  "scenario_count": 40,
+  "hit_rate_at_3": 1.0,
+  "acceptance_rate_at_3": 0.8333,
+  "hits": 40
+}

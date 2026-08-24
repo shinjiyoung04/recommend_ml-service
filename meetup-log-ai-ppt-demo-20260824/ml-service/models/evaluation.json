@@ -1,0 +1,89 @@
+{
+  "model_version": "semantic-group-hybrid-0.6.0",
+  "embedding_backend": "tfidf-svd-fallback",
+  "movies": 5002,
+  "train_positive_pairs": 33469,
+  "validation_positive_pairs": 2967,
+  "test_positive_pairs": 14716,
+  "negative_pairs": 5002,
+  "source_feature_dimensions": 20029,
+  "model_feature_dimensions": 256,
+  "catalog_sha256": "0bcfd4aa0a1343510c9987d45e95b3e3146e7d243d4df262bda418faf82aa9b7",
+  "ranker_weight": 0.1,
+  "ranker_validation_baseline": {
+    "precision_at_k": 0.2483,
+    "recall_at_k": 0.3032,
+    "ndcg_at_k": 0.333,
+    "mrr": 0.3708,
+    "queries": 200,
+    "test_pairs": 2967,
+    "candidate_pool": 250,
+    "k": 3,
+    "evaluation_scope": "temporal_validation_relation_pairs"
+  },
+  "ranker_validation_metrics": {
+    "precision_at_k": 0.25,
+    "recall_at_k": 0.3079,
+    "ndcg_at_k": 0.3384,
+    "mrr": 0.38,
+    "queries": 200,
+    "test_pairs": 2967,
+    "candidate_pool": 250,
+    "k": 3,
+    "evaluation_scope": "temporal_validation_relation_pairs"
+  },
+  "train_seconds": 42.2966,
+  "split_strategy": "temporal_release_date",
+  "validation_cutoff": "2023-01-01",
+  "test_cutoff": "2024-01-01",
+  "metrics": {
+    "precision_at_k": 0.3533,
+    "recall_at_k": 0.2091,
+    "ndcg_at_k": 0.4103,
+    "mrr": 0.5017,
+    "queries": 200,
+    "test_pairs": 14716,
+    "candidate_pool": 250,
+    "k": 3,
+    "evaluation_scope": "temporal_heldout_relation_pairs"
+  },
+  "deployment_guardrail": {
+    "passed": true,
+    "selected_ranker_weight": 0.1,
+    "candidate_ranker_weight": 0.1,
+    "content_baseline": {
+      "precision_at_k": 0.3483,
+      "recall_at_k": 0.2084,
+      "ndcg_at_k": 0.4083,
+      "mrr": 0.505,
+      "queries": 200,
+      "test_pairs": 14716,
+      "candidate_pool": 250,
+      "k": 3,
+      "evaluation_scope": "temporal_heldout_relation_pairs"
+    },
+    "candidate": {
+      "precision_at_k": 0.3533,
+      "recall_at_k": 0.2091,
+      "ndcg_at_k": 0.4103,
+      "mrr": 0.5017,
+      "queries": 200,
+      "test_pairs": 14716,
+      "candidate_pool": 250,
+      "k": 3,
+      "evaluation_scope": "temporal_heldout_relation_pairs"
+    },
+    "lift": {
+      "precision_at_k": 0.005,
+      "recall_at_k": 0.0007,
+      "ndcg_at_k": 0.002,
+      "mrr": -0.0033
+    },
+    "thresholds": {
+      "minimum_precision_lift": 0.0,
+      "minimum_recall_lift": 0.0,
+      "minimum_ndcg_lift": 0.0,
+      "minimum_mrr_lift": -0.01
+    }
+  }
+}

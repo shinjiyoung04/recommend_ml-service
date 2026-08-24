@@ -1,0 +1,781 @@
+{
+  "evaluated_at": "2026-08-20T10:14:08.559619+00:00",
+  "evaluation_type": "catalog_grounded_component_validation",
+  "catalog_movie_count": 5002,
+  "actor": {
+    "scenario_count": 12,
+    "person_id_scenario_count": 12,
+    "person_id_coverage": 1.0,
+    "mean_preference_score_lift": 0.32,
+    "mean_dislike_score_drop": 0.5,
+    "preference_hit_rate_at_3": 1.0,
+    "dislike_avoidance_rate_at_3": 1.0,
+    "exact_three_rate": 1.0,
+    "scenarios": [
+      {
+        "identity": "id:2231",
+        "person_id": 2231,
+        "person_name": "Samuel L. Jackson",
+        "target_movie_id": "mov_26a2c7a3410e",
+        "liked_top3": [
+          "mov_26a2c7a3410e",
+          "mov_1e732f19f3f9",
+          "mov_3e13972eb0f5"
+        ],
+        "disliked_top3": [
+          "mov_6b3805be3e96",
+          "mov_5b3d3ac46808",
+          "mov_02fe5614b61e"
+        ],
+        "score_lift": 0.32,
+        "score_drop": 0.5,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:5293",
+        "person_id": 5293,
+        "person_name": "Willem Dafoe",
+        "target_movie_id": "mov_58481d252ff8",
+        "liked_top3": [
+          "mov_58481d252ff8",
+          "mov_60c41c8ccbe9",
+          "mov_965769386012"
+        ],
+        "disliked_top3": [
+          "mov_60c41c8ccbe9",
+          "mov_906d43ef0c77",
+          "mov_965769386012"
+        ],
+        "score_lift": 0.32,
+        "score_drop": 0.5,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:31",
+        "person_id": 31,
+        "person_name": "Tom Hanks",
+        "target_movie_id": "mov_f35bddcb8f4e",
+        "liked_top3": [
+          "mov_f35bddcb8f4e",
+          "mov_e5408fb4b159",
+          "mov_6729538c8848"
+        ],
+        "disliked_top3": [
+          "mov_e5408fb4b159",
+          "mov_96d7a3f0b03d",
+          "mov_7d005e4eb735"
+        ],
+        "score_lift": 0.32,
+        "score_drop": 0.5,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:500",
+        "person_id": 500,
+        "person_name": "Tom Cruise",
+        "target_movie_id": "mov_3b18124c2580",
+        "liked_top3": [
+          "mov_3b18124c2580",
+          "mov_9dae31cb81a6",
+          "mov_02e615353781"
+        ],
+        "disliked_top3": [
+          "mov_9dae31cb81a6",
+          "mov_02e615353781",
+          "mov_758bf5be1b06"
+        ],
+        "score_lift": 0.32,
+        "score_drop": 0.5,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:976",
+        "person_id": 976,
+        "person_name": "Jason Statham",
+        "target_movie_id": "mov_73e5be349645",
+        "liked_top3": [
+          "mov_73e5be349645",
+          "mov_c7de87501515",
+          "mov_2217c5ba8418"
+        ],
+        "disliked_top3": [
+          "mov_c7de87501515",
+          "mov_d2fe74475204",
+          "mov_2217c5ba8418"
+        ],
+        "score_lift": 0.32,
+        "score_drop": 0.5,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:287",
+        "person_id": 287,
+        "person_name": "Brad Pitt",
+        "target_movie_id": "mov_8621aeae4e50",
+        "liked_top3": [
+          "mov_8621aeae4e50",
+          "mov_86ef382316dc",
+          "mov_b773820a5060"
+        ],
+        "disliked_top3": [
+          "mov_86ef382316dc",
+          "mov_51af60d025bb",
+          "mov_b773820a5060"
+        ],
+        "score_lift": 0.32,
+        "score_drop": 0.5,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:16483",
+        "person_id": 16483,
+        "person_name": "Sylvester Stallone",
+        "target_movie_id": "mov_eac84b0f2d2e",
+        "liked_top3": [
+          "mov_eac84b0f2d2e",
+          "mov_a7a4297c439f",
+          "mov_1d965a5f48fc"
+        ],
+        "disliked_top3": [
+          "mov_1d965a5f48fc",
+          "mov_78a57d7411c9",
+          "mov_e8b18d99b4fb"
+        ],
+        "score_lift": 0.32,
+        "score_drop": 0.5,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:18918",
+        "person_id": 18918,
+        "person_name": "Dwayne Johnson",
+        "target_movie_id": "mov_63d325ab818e",
+        "liked_top3": [
+          "mov_63d325ab818e",
+          "mov_17c114445708",
+          "mov_2ea9eeb93b80"
+        ],
+        "disliked_top3": [
+          "mov_2ea9eeb93b80",
+          "mov_9e5e881be8f5",
+          "mov_17c114445708"
+        ],
+        "score_lift": 0.32,
+        "score_drop": 0.5,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:85",
+        "person_id": 85,
+        "person_name": "Johnny Depp",
+        "target_movie_id": "mov_6197c8c85b4c",
+        "liked_top3": [
+          "mov_6197c8c85b4c",
+          "mov_83f96586d43e",
+          "mov_c0bf711a6aff"
+        ],
+        "disliked_top3": [
+          "mov_8f19f09fd071",
+          "mov_83f96586d43e",
+          "mov_c0bf711a6aff"
+        ],
+        "score_lift": 0.32,
+        "score_drop": 0.5,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:1245",
+        "person_id": 1245,
+        "person_name": "Scarlett Johansson",
+        "target_movie_id": "mov_26a2c7a3410e",
+        "liked_top3": [
+          "mov_26a2c7a3410e",
+          "mov_1e732f19f3f9",
+          "mov_3e13972eb0f5"
+        ],
+        "disliked_top3": [
+          "mov_6b3805be3e96",
+          "mov_5b3d3ac46808",
+          "mov_02fe5614b61e"
+        ],
+        "score_lift": 0.32,
+        "score_drop": 0.5,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:13240",
+        "person_id": 13240,
+        "person_name": "Mark Wahlberg",
+        "target_movie_id": "mov_5355d0765802",
+        "liked_top3": [
+          "mov_5355d0765802",
+          "mov_1a8d6a8a0598",
+          "mov_9ee699ad2508"
+        ],
+        "disliked_top3": [
+          "mov_1a8d6a8a0598",
+          "mov_7f2dd9d86727",
+          "mov_68cfa4630876"
+        ],
+        "score_lift": 0.32,
+        "score_drop": 0.5,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:1892",
+        "person_id": 1892,
+        "person_name": "Matt Damon",
+        "target_movie_id": "mov_c1b74f862c3f",
+        "liked_top3": [
+          "mov_c1b74f862c3f",
+          "mov_91cadaceda36",
+          "mov_088fabbdda57"
+        ],
+        "disliked_top3": [
+          "mov_91cadaceda36",
+          "mov_088fabbdda57",
+          "mov_6c41f6738dfe"
+        ],
+        "score_lift": 0.32,
+        "score_drop": 0.5,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      }
+    ]
+  },
+  "director": {
+    "scenario_count": 12,
+    "person_id_scenario_count": 12,
+    "person_id_coverage": 1.0,
+    "mean_preference_score_lift": 0.28,
+    "mean_dislike_score_drop": 0.45,
+    "preference_hit_rate_at_3": 1.0,
+    "dislike_avoidance_rate_at_3": 1.0,
+    "exact_three_rate": 1.0,
+    "scenarios": [
+      {
+        "identity": "id:488",
+        "person_id": 488,
+        "person_name": "Steven Spielberg",
+        "target_movie_id": "mov_9cdd63919aff",
+        "liked_top3": [
+          "mov_9cdd63919aff",
+          "mov_bf614e18b481",
+          "mov_d2821a2ba678"
+        ],
+        "disliked_top3": [
+          "mov_bf614e18b481",
+          "mov_c9c7da7f2c52",
+          "mov_4eb2391a6e59"
+        ],
+        "score_lift": 0.28,
+        "score_drop": 0.45,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:578",
+        "person_id": 578,
+        "person_name": "Ridley Scott",
+        "target_movie_id": "mov_4183c1c0c6c1",
+        "liked_top3": [
+          "mov_4183c1c0c6c1",
+          "mov_864c72b01ef0",
+          "mov_3275d60a010e"
+        ],
+        "disliked_top3": [
+          "mov_36cc93b5fdc1",
+          "mov_490971532bb3",
+          "mov_3275d60a010e"
+        ],
+        "score_lift": 0.28,
+        "score_drop": 0.45,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:24",
+        "person_id": 24,
+        "person_name": "Robert Zemeckis",
+        "target_movie_id": "mov_f35bddcb8f4e",
+        "liked_top3": [
+          "mov_f35bddcb8f4e",
+          "mov_e5408fb4b159",
+          "mov_6729538c8848"
+        ],
+        "disliked_top3": [
+          "mov_e5408fb4b159",
+          "mov_96d7a3f0b03d",
+          "mov_7d005e4eb735"
+        ],
+        "score_lift": 0.28,
+        "score_drop": 0.45,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:1032",
+        "person_id": 1032,
+        "person_name": "Martin Scorsese",
+        "target_movie_id": "mov_77c86a8b9acc",
+        "liked_top3": [
+          "mov_77c86a8b9acc",
+          "mov_74e83b80443c",
+          "mov_a00528860be2"
+        ],
+        "disliked_top3": [
+          "mov_74e83b80443c",
+          "mov_a00528860be2",
+          "mov_3a72531641ea"
+        ],
+        "score_lift": 0.28,
+        "score_drop": 0.45,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:510",
+        "person_id": 510,
+        "person_name": "Tim Burton",
+        "target_movie_id": "mov_412d4a5f59ab",
+        "liked_top3": [
+          "mov_412d4a5f59ab",
+          "mov_34c57e4e1cab",
+          "mov_4be79e9f8bfd"
+        ],
+        "disliked_top3": [
+          "mov_34c57e4e1cab",
+          "mov_4be79e9f8bfd",
+          "mov_39a970881d4b"
+        ],
+        "score_lift": 0.28,
+        "score_drop": 0.45,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:2294",
+        "person_id": 2294,
+        "person_name": "Robert Rodriguez",
+        "target_movie_id": "mov_ac076e2115be",
+        "liked_top3": [
+          "mov_ac076e2115be",
+          "mov_ddc746066d0c",
+          "mov_091984e55812"
+        ],
+        "disliked_top3": [
+          "mov_ddc746066d0c",
+          "mov_091984e55812",
+          "mov_4f583d799031"
+        ],
+        "score_lift": 0.28,
+        "score_drop": 0.45,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:6159",
+        "person_id": 6159,
+        "person_name": "Ron Howard",
+        "target_movie_id": "mov_b0e2f8008166",
+        "liked_top3": [
+          "mov_b0e2f8008166",
+          "mov_98bbe1b7557d",
+          "mov_37b51940152f"
+        ],
+        "disliked_top3": [
+          "mov_98bbe1b7557d",
+          "mov_37b51940152f",
+          "mov_bfdd5db55bb6"
+        ],
+        "score_lift": 0.28,
+        "score_drop": 0.45,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:865",
+        "person_id": 865,
+        "person_name": "Michael Bay",
+        "target_movie_id": "mov_7ed8897f2843",
+        "liked_top3": [
+          "mov_7ed8897f2843",
+          "mov_139013589ffd",
+          "mov_25c6e8dc7533"
+        ],
+        "disliked_top3": [
+          "mov_58f07d9ccbc8",
+          "mov_25c6e8dc7533",
+          "mov_cbbf52fb3f99"
+        ],
+        "score_lift": 0.28,
+        "score_drop": 0.45,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:525",
+        "person_id": 525,
+        "person_name": "Christopher Nolan",
+        "target_movie_id": "mov_c1b74f862c3f",
+        "liked_top3": [
+          "mov_c1b74f862c3f",
+          "mov_91cadaceda36",
+          "mov_088fabbdda57"
+        ],
+        "disliked_top3": [
+          "mov_91cadaceda36",
+          "mov_088fabbdda57",
+          "mov_6c41f6738dfe"
+        ],
+        "score_lift": 0.28,
+        "score_drop": 0.45,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:956",
+        "person_id": 956,
+        "person_name": "Guy Ritchie",
+        "target_movie_id": "mov_697b9737f1d7",
+        "liked_top3": [
+          "mov_697b9737f1d7",
+          "mov_739bbd5495f7",
+          "mov_1e9c39d1be79"
+        ],
+        "disliked_top3": [
+          "mov_739bbd5495f7",
+          "mov_1e9c39d1be79",
+          "mov_295f2a659399"
+        ],
+        "score_lift": 0.28,
+        "score_drop": 0.45,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:138",
+        "person_id": 138,
+        "person_name": "Quentin Tarantino",
+        "target_movie_id": "mov_6729538c8848",
+        "liked_top3": [
+          "mov_6729538c8848",
+          "mov_57458c8d09bf",
+          "mov_9218458eadd2"
+        ],
+        "disliked_top3": [
+          "mov_57458c8d09bf",
+          "mov_04d5240387bd",
+          "mov_96d7a3f0b03d"
+        ],
+        "score_lift": 0.28,
+        "score_drop": 0.45,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      },
+      {
+        "identity": "id:20907",
+        "person_id": 20907,
+        "person_name": "Antoine Fuqua",
+        "target_movie_id": "mov_65a03253d930",
+        "liked_top3": [
+          "mov_65a03253d930",
+          "mov_b89ff4766c9b",
+          "mov_9c31f7ab2576"
+        ],
+        "disliked_top3": [
+          "mov_b89ff4766c9b",
+          "mov_9c31f7ab2576",
+          "mov_95a305ca17b0"
+        ],
+        "score_lift": 0.28,
+        "score_drop": 0.45,
+        "like_hit_at_3": true,
+        "dislike_avoidance_at_3": true,
+        "exact_three": true
+      }
+    ]
+  },
+  "context_inheritance": {
+    "case_count": 28,
+    "passed": 14,
+    "accuracy": 0.5,
+    "cases": [
+      {
+        "role": "ACTOR",
+        "identity": "id:2231",
+        "person_id": 2231,
+        "reply": "나도",
+        "expected": "INHERIT",
+        "passed": false
+      },
+      {
+        "role": "ACTOR",
+        "identity": "id:2231",
+        "person_id": 2231,
+        "reply": "동의",
+        "expected": "INHERIT",
+        "passed": false
+      },
+      {
+        "role": "ACTOR",
+        "identity": "id:2231",
+        "person_id": 2231,
+        "reply": "인정",
+        "expected": "INHERIT",
+        "passed": false
+      },
+      {
+        "role": "ACTOR",
+        "identity": "id:2231",
+        "person_id": 2231,
+        "reply": "찬성",
+        "expected": "INHERIT",
+        "passed": false
+      },
+      {
+        "role": "ACTOR",
+        "identity": "id:2231",
+        "person_id": 2231,
+        "reply": "그건 인정",
+        "expected": "INHERIT",
+        "passed": false
+      },
+      {
+        "role": "ACTOR",
+        "identity": "id:2231",
+        "person_id": 2231,
+        "reply": "맞지",
+        "expected": "INHERIT",
+        "passed": false
+      },
+      {
+        "role": "ACTOR",
+        "identity": "id:2231",
+        "person_id": 2231,
+        "reply": "그러게",
+        "expected": "INHERIT",
+        "passed": false
+      },
+      {
+        "role": "ACTOR",
+        "identity": "id:2231",
+        "person_id": 2231,
+        "reply": "+1",
+        "expected": "INHERIT",
+        "passed": false
+      },
+      {
+        "role": "ACTOR",
+        "identity": "id:2231",
+        "person_id": 2231,
+        "reply": "ㅇㅈ",
+        "expected": "INHERIT",
+        "passed": false
+      },
+      {
+        "role": "ACTOR",
+        "identity": "id:2231",
+        "person_id": 2231,
+        "reply": "동의 못 해",
+        "expected": "NEGATIVE",
+        "passed": false
+      },
+      {
+        "role": "ACTOR",
+        "identity": "id:2231",
+        "person_id": 2231,
+        "reply": "인정 못해",
+        "expected": "NEGATIVE",
+        "passed": false
+      },
+      {
+        "role": "ACTOR",
+        "identity": "id:2231",
+        "person_id": 2231,
+        "reply": "찬성 안 해",
+        "expected": "NEGATIVE",
+        "passed": false
+      },
+      {
+        "role": "ACTOR",
+        "identity": "id:2231",
+        "person_id": 2231,
+        "reply": "반대",
+        "expected": "NEGATIVE",
+        "passed": false
+      },
+      {
+        "role": "ACTOR",
+        "identity": "id:2231",
+        "person_id": 2231,
+        "reply": "나도 싫어",
+        "expected": "NEGATIVE",
+        "passed": false
+      },
+      {
+        "role": "DIRECTOR",
+        "identity": "id:488",
+        "person_id": 488,
+        "reply": "나도",
+        "expected": "INHERIT",
+        "passed": true
+      },
+      {
+        "role": "DIRECTOR",
+        "identity": "id:488",
+        "person_id": 488,
+        "reply": "동의",
+        "expected": "INHERIT",
+        "passed": true
+      },
+      {
+        "role": "DIRECTOR",
+        "identity": "id:488",
+        "person_id": 488,
+        "reply": "인정",
+        "expected": "INHERIT",
+        "passed": true
+      },
+      {
+        "role": "DIRECTOR",
+        "identity": "id:488",
+        "person_id": 488,
+        "reply": "찬성",
+        "expected": "INHERIT",
+        "passed": true
+      },
+      {
+        "role": "DIRECTOR",
+        "identity": "id:488",
+        "person_id": 488,
+        "reply": "그건 인정",
+        "expected": "INHERIT",
+        "passed": true
+      },
+      {
+        "role": "DIRECTOR",
+        "identity": "id:488",
+        "person_id": 488,
+        "reply": "맞지",
+        "expected": "INHERIT",
+        "passed": true
+      },
+      {
+        "role": "DIRECTOR",
+        "identity": "id:488",
+        "person_id": 488,
+        "reply": "그러게",
+        "expected": "INHERIT",
+        "passed": true
+      },
+      {
+        "role": "DIRECTOR",
+        "identity": "id:488",
+        "person_id": 488,
+        "reply": "+1",
+        "expected": "INHERIT",
+        "passed": true
+      },
+      {
+        "role": "DIRECTOR",
+        "identity": "id:488",
+        "person_id": 488,
+        "reply": "ㅇㅈ",
+        "expected": "INHERIT",
+        "passed": true
+      },
+      {
+        "role": "DIRECTOR",
+        "identity": "id:488",
+        "person_id": 488,
+        "reply": "동의 못 해",
+        "expected": "NEGATIVE",
+        "passed": true
+      },
+      {
+        "role": "DIRECTOR",
+        "identity": "id:488",
+        "person_id": 488,
+        "reply": "인정 못해",
+        "expected": "NEGATIVE",
+        "passed": true
+      },
+      {
+        "role": "DIRECTOR",
+        "identity": "id:488",
+        "person_id": 488,
+        "reply": "찬성 안 해",
+        "expected": "NEGATIVE",
+        "passed": true
+      },
+      {
+        "role": "DIRECTOR",
+        "identity": "id:488",
+        "person_id": 488,
+        "reply": "반대",
+        "expected": "NEGATIVE",
+        "passed": true
+      },
+      {
+        "role": "DIRECTOR",
+        "identity": "id:488",
+        "person_id": 488,
+        "reply": "나도 싫어",
+        "expected": "NEGATIVE",
+        "passed": true
+      }
+    ]
+  },
+  "thresholds": {
+    "minimum_mean_score_lift": 0.15,
+    "minimum_mean_score_drop": 0.2,
+    "minimum_hit_or_avoidance_rate_at_3": 0.8,
+    "required_exact_three_rate": 1.0,
+    "required_context_accuracy": 1.0,
+    "minimum_tmdb_person_id_coverage_for_production": 0.95
+  },
+  "limitations": [
+    "TMDB catalog credits validate model behavior but are not real-user acceptance labels.",
+    "Real chat logs and impression/click/select outcomes must be evaluated separately before claiming product accuracy.",
+    "A catalog without TMDB person IDs is evaluated by role-scoped canonical names and is not production identity-ready."
+  ],
+  "behavior_passed": false,
+  "person_id_data_ready": true,
+  "production_ready": false,
+  "passed": false
+}

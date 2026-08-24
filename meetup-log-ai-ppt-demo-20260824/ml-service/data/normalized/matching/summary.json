@@ -1,0 +1,11 @@
+{
+  "tmdb_movies": 5000,
+  "kobis_movies": 2969,
+  "matched": 99,
+  "kobis_only_movies": 2821,
+  "unified_movies": 7821,
+  "recommendation_eligible": 4999,
+  "match_rate_tmdb": 0.0198,
+  "review_required": 45,
+  "integrated_at": "2026-08-12T01:47:01.587486+00:00"
+}

@@ -1,0 +1,57 @@
+MeetupLog 프로젝트 정리 보고서
+작성일: 2026-08-12
+
+[선택한 구성]
+1. ML: C:\student_sjy\MeetupLog\project2\ml-service
+   - 최신 로컬/원격 이력의 P2 추천 파이프라인
+   - semantic-group-hybrid-0.4.0
+   - /health, /v1/evaluation, /v1/recommendations/group 계약 확인
+   - 실행 패키지 메타데이터(pyproject.toml, .env.example)는 같은 프로젝트 이력의 중첩 복사본에서 보완
+
+2. Backend: C:\student_sjy\MeetupLog\project2\backend\backend
+   - 중첩 저장소의 최신 미커밋 변경과 동일한 소스
+   - /api/v1/recommendations → FastAPI /v1/recommendations/group
+   - /health 및 /evaluation 프록시 포함
+   - ML 기본 주소 http://localhost:8000
+
+3. Frontend: C:\student_sjy\MeetupLog\project2\sd_mltest_movie\project2\lostmatch-frontend\frontend
+   - 최신 AI 추천 결과 UI 소스가 있는 React/Vite 앱
+   - 포트 5173
+   - /api → http://localhost:8080 프록시
+
+[제외한 항목]
+- 원본 .git 및 중첩 Git 저장소
+- .venv, node_modules, build, dist, .gradle, .idea, 캐시
+- 실제 .env 및 기타 비밀값
+- models 대용량 로컬 모델(약 2.3 GB): 런타임은 오프라인 TF-IDF fallback 가능
+- data/raw 원본 수집 데이터(약 782 MB)
+- vendor/ElectraSpacer 대용량 선택 기능
+- meetup_ml.current-backup, before-* 백업 코드, codex-backup
+- 3000 포트 Express+Vite 자체 추천기(sd_mltest_movie)
+- 중첩 project2 복사본과 최상위 lostmatch-frontend의 빌드 산출물 위주 복사본
+
+[Git 근거]
+- 최상위 원격: persipica/MeetUpLog, shinjiyoung04/P0_SDMLTEST_MOVIE, shinjiyoung04/SD_MLTEST_MOVIE
+- 최신 P2 파이프라인 커밋: ec4eced / 53f4f2b (2026-08-12)
+- 중첩 저장소 최신 커밋: fc12fca (2026-08-11)
+- GitHub 앱에서는 P0 저장소가 404였으나, 로컬 원격 추적 ref p0personal/main=53f4f2b와 커밋 이력을 사용해 대조함
+
+[주의]
+- 모델/원시 데이터는 크기 때문에 제외했지만, 추천 실행에 필요한 정규화 영화 카탈로그(data/normalized)는 포함했습니다.
+- 외부 TMDB/KOBIS 기능은 별도 API 키가 필요할 수 있습니다.
+
+[검증 결과]
+- ML 단위 테스트: 23 passed (외부 TMDB 키가 필요한 실연동 테스트 3개 제외)
+- ML 정리본 API: /health 200, /v1/evaluation 200, /v1/version 200
+- 확인된 모델/데이터: semantic-group-hybrid-0.4.0 / movies-7823
+- Frontend: TypeScript 검사 통과, Vite 8.1.5 프로덕션 빌드 통과
+- Backend: Gradle test 통과
+
+[2026-08-12 의존성 수정]
+- 최신 chat_analysis.py의 필수 패키지 rapidfuzz를 pyproject.toml에 추가함
+- 수정 후 새로 `pip install -e .` 하면 함께 설치됨
+
+[2026-08-12 채팅 500 오류 수정]
+- 동의 메시지가 이전 러닝타임 효과를 상속할 때 표시 문자열 전체를 int로 변환하던 오류 수정
+- 러닝타임 효과에서 숫자만 안전하게 추출하고, 숫자가 없으면 상태 변경 없이 반환
+- 관련 회귀 테스트 2개 추가, ML 테스트 총 25개 통과
